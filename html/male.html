@@ -4,20 +4,37 @@
     background-color: #9ceded;
   }
 
-  input[type=submit] {
-    width: 90%;
-  	height: 8%;
-  	background: rgba(3, 231, 185, 0.66);
-  	border: 1px solid rgba(255, 255, 255, 0.6);
-  	border-radius: 2px;
-  	color: #fff;
-  	font-family: 'Exo', sans-serif;
-  	font-size: 16px;
-  	font-weight: 400;
-  	padding: 4px;
-  	margin-bottom: 15px;
-    margin-left: 30px;
-}
+  .nav{
+    background-color: #617c7c;
+    width: 101.1%;
+    height: 50px;
+    margin-left: -8px;
+    margin-top: -12px;
+  }
+  .nav input[type=submit] {
+    width: 100px;
+    height: 100%;
+    background-color: #00a560;
+    border: 0px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0px;
+    color: white;
+    font-size: 15px;
+  }
 </style>
 </head>
+
+<body>
+  <div class="nav">
+    <form action="account.html">
+      <input type="submit" value="Account" style="float: right;" />
+    </form>
+    <form action="index.html">
+      <input type="image" src="../img/home.png" value="test string" style="float: left; height: 50px; width: 50px; margin-left: 20px;" />
+    </form>
+    <form action="male.html">
+      <input type="submit" value="Mens Cloathing" style="float: left;" />
+    </form>
+  </div>
+</body>
+
 </html>

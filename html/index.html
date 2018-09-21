@@ -1,53 +1,39 @@
 <html>
-<head>
-
-<title>Welcome</title>
-
 <style>
   body{
-    background-color: #9ceded;
+    background-color: white;
   }
-  .content1, .content2, .content3{
-    width: 29.83vw;
-    height: 29.83vw;
-    float: left;
-    margin: 20px;
-    margin-top: 100px
-  }
-  img{
-    width: 9vw;
-    height: 9vw;
-  }
-  input[type=image] {
-    width: 29.83vw;
-  	height: 29.83vw;
-  	background: rgba(255, 255, 255, 0.1);
-  	border: 2px solid rgba(255, 255, 255, 0.6);
-  	border-radius: 2px;
-  	color: #fff;
-  	font-family: 'Exo', sans-serif;
-  	font-size: 16px;
-  	font-weight: 400;
-  	padding: 4px;
 
-}
+  .nav{
+    background-color: #232323;
+    width: 101.1%;
+    height: 80px;
+    margin-left: -8px;
+    margin-top: -12px;
+  }
+  .nav input[type=submit] {
+    width: 100px;
+    height: 80%;
+    background-color: #00a560;
+    border: 0px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0px;
+    color: white;
+    font-size: 15px;
+    margin-top: 7.5px;
+  }
 </style>
 </head>
 
 <body>
-  <div class="content1">
+  <div class="nav">
+    <form action="account.html">
+      <input type="submit" value="Account" style="float: right;" />
+    </form>
+    <form action="index.html">
+      <input type="image" src="../img/banner.png" value="test string" style="float: left; height: 80px; width: 270px; margin-left: 20px;" />
+    </form>
     <form action="male.html">
-      <input type="image" src="..\img\male.png"><br>
-    </form>
-  </div>
-  <div class="content2">
-    <form action="fem.html">
-      <input type="image" src="..\img\fem.png"><br>
-    </form>
-  </div>
-  <div class="content3">
-    <form action="bi.html">
-      <input type="image" src="..\img\bi.png"><br>
+      <input type="submit" value="Mens Cloathing" style="float: left;" />
     </form>
   </div>
 </body>
